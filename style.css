@@ -120,6 +120,14 @@ body {
         width: 90%;
     }
 
+    .card-title {
+        padding: 4em 2em 0em 2em;
+    }
+
+    .card-message {
+        margin: 2em 2em;
+    }
+
     .card-divider {
         padding: 0em 2em 4em 2em;
     }
@@ -127,17 +135,6 @@ body {
     .image-divider {
         content: url(./images/pattern-divider-mobile.svg);
         max-width: -webkit-fill-available
-    }
-}
-
-@media screen and (max-width: 576px) {
-
-    .card-title {
-        padding: 4em 2em 0em 2em;
-    }
-
-    .card-message {
-        margin: 2em 2em;
     }
 }
 
