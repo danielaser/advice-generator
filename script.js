@@ -33,7 +33,7 @@ request.onload = function () {
 
             //Card elements creation 
 
-            const adviceNumber = document.createElement('p');
+            const adviceNumber = document.createElement('h1');
             adviceNumber.setAttribute('class', 'advice-number');
             adviceNumber.textContent = `ADVICE # ${message.id}`;
 
