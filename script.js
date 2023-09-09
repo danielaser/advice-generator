@@ -43,9 +43,11 @@ request.onload = function () {
 
             const imageDivider = document.createElement('img');
             imageDivider.setAttribute('class', 'image-divider');
+            imageDivider.alt = "Ilustration from Frontend Mentor";
 
             const iconDice = document.createElement('img');
             iconDice.setAttribute('class', 'icon-dice');
+            iconDice.alt = "Ilustration from Frontend Mentor";
 
             //Add card header and body
 
