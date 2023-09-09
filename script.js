@@ -25,7 +25,7 @@ request.onload = function () {
             const cardDivider = document.createElement('div');
             cardDivider.setAttribute('class', 'card-divider');
 
-            const cardIcon = document.createElement('button');
+            const cardIcon = document.createElement('span');
             cardIcon.setAttribute('class', 'card-icon');
             cardIcon.addEventListener("click", (data) => {
                 location.reload();
