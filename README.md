@@ -33,7 +33,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Advice-generator](https://github.com/danielaser/advice-generator)
-- Live Site URL: [Advice-generator-API](https://your-live-site-url.com)
+- Live Site URL: [Advice-generator-API](https://advice-generator-api-connection.netlify.app/)
 
 ## My process
 
