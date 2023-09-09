@@ -11,6 +11,8 @@ request.onload = function () {
 
         Object.values(data).forEach(message => {
 
+            //card creation with header and body
+
             const card = document.createElement('div');
             card.setAttribute('class', 'card-container');
 
@@ -29,7 +31,7 @@ request.onload = function () {
                 location.reload();
             });
 
-            //Elements to add into the divisor
+            //Card elements creation 
 
             const adviceNumber = document.createElement('p');
             adviceNumber.setAttribute('class', 'advice-number');
@@ -45,12 +47,15 @@ request.onload = function () {
             const iconDice = document.createElement('img');
             iconDice.setAttribute('class', 'icon-dice');
 
-            //Add
+            //Add card header and body
+
             container.appendChild(card);
             card.appendChild(cardTitle);
             card.appendChild(cardMessage);
             card.appendChild(cardDivider);
             card.appendChild(cardIcon);
+
+            //Add elements to the card body 
 
             cardTitle.appendChild(adviceNumber);
             cardMessage.appendChild(adviceText);
@@ -59,7 +64,7 @@ request.onload = function () {
 
         });
     } else {
-        console.log('error code ' + request.status);
+        console.log('There is an error. Please check the code ' + request.status);
     }
 }
 

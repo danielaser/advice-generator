@@ -27,7 +27,6 @@ body {
     src: url('font/Manrope-SemiBold.ttf') format('truetype');
 }
 
-.text-title,
 .advice-number {
     font-family: 'Manrope', sans-serif;
     font-size: 18px;
@@ -64,8 +63,10 @@ body {
 }
 
 .card-divider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     padding: 0em 4em 4em 4em;
-    text-align: center;
 }
 
 .image-divider {
@@ -109,4 +110,42 @@ body {
 
 .attribution a {
     color: hsl(228, 45%, 44%);
+}
+
+/* Responsive style */
+
+@media screen and (max-width: 768px) {
+
+    .container {
+        width: 90%;
+    }
+
+    .card-divider {
+        padding: 0em 2em 4em 2em;
+    }
+
+    .image-divider {
+        content: url(./images/pattern-divider-mobile.svg);
+        max-width: -webkit-fill-available
+    }
+}
+
+@media screen and (max-width: 375px) {
+
+    .card-title {
+        padding: 4em 2em 0em 2em;
+    }
+
+    .advice-number {
+        font-size: 14px;
+    }
+
+    .card-message {
+        margin: 2em 2em;
+    }
+
+    .text-message {
+        font-size: 20px;
+    }
+
 }
