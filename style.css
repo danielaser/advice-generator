@@ -130,18 +130,21 @@ body {
     }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 576px) {
 
     .card-title {
         padding: 4em 2em 0em 2em;
     }
 
-    .advice-number {
-        font-size: 14px;
-    }
-
     .card-message {
         margin: 2em 2em;
+    }
+}
+
+@media screen and (max-width: 375px) {
+
+    .advice-number {
+        font-size: 14px;
     }
 
     .text-message {
